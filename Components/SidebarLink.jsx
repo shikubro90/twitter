@@ -1,9 +1,9 @@
 import React from 'react'
 
-const SidebarLink = () => {
+const SidebarLink = ({Icon, text, active}) => {
   return (
     <div>
-        SidebarLink
+        <Icon className="h-5 w-5 text-blue-500" />
     </div>
   )
 }
