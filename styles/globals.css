@@ -1,4 +1,23 @@
-html,
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+  body{
+    @apply bg-black
+  }
+}
+
+@layer components{
+  .hoverAnimation{
+    @apply hover:bg-[#d9d9d9] hover:bg-opacity-10 cursor-pointer rounded-full w-[52px] h-[52px] xl:w-auto xl:h-auto
+  }
+}
+
+
+
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -23,8 +42,5 @@ a {
     color: white;
     background: black;
   }
-}
+} */
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;

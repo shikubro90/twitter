@@ -1,11 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
+import SideBar from '../Components/SideBar'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+    <main className="bg-black min-h-screen max-w-[1500px] mx-auto flex">
+      <SideBar />
+      {/* Feed */}
+      {/* Widget */}
+
+      {/* Modal */}
+    </main>
   )
 }
