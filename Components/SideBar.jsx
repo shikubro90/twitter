@@ -73,7 +73,7 @@ const SideBar = () => {
 
       <div className="space-y-2.5 text-white">
         {Icons.map(({id, Icon, text, style }) => (
-          <SidebarLink key={}={id} text={text} Icon={Icon} style={style} />
+          <SidebarLink key={id} text={text} Icon={Icon} style={style} />
         ))}
 
         {/* <SidebarLink text="Explore" Icon={HashtagIcon} />
