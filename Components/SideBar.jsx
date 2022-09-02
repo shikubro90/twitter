@@ -71,6 +71,7 @@ const SideBar = () => {
         <Image src="https://rb.gy/ogau5a" width={30} height={30} />
       </div>
 
+
       <div className="space-y-2.5 text-white">
         {Icons.map(({id, Icon, text, style }) => (
           <SidebarLink key={id} text={text} Icon={Icon} style={style} />
